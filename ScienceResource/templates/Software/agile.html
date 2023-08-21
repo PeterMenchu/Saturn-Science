@@ -1,0 +1,45 @@
+{% extends "layout.html" %}
+{% block content %}
+<!-- Page Header-->
+        <!-- Page Header-->
+        <header class="masthead" style="background-image: url('../static/assets/img/topics.jpeg')">
+            <div class="container position-relative px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-md-10 col-lg-8 col-xl-7">
+                        <div class="post-heading">
+                            <h1>The Agile Method</h1>
+                            <h2 class="subheading">All software engineers must know this.</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- Post Content-->
+        <article class="mb-4">
+            <div class="container px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-md-10 col-lg-8 col-xl-7">
+
+                        <p>The central theme of agile programming is prioritizing having "working" software that satisfies the customer, throughout the development period, over spending a lot of time trying to create comprehensive plans and documentation beforehand. The point of this is to put users and their interactions with the app at the center of design. In agile the technology and tools used to make the software possible always come second to user's needs, made possible by frequent deployment and reviews built into the process. Take note of what the user needs (through "User Stories" perhaps) and put the technology in place strictly according to those needs.</p>
+                        <p>The agile process always starts with planning and documentation, but you don't have to plan everything thoroughly at the start. Agile has a dynamic planning process, where the development plan is to evolve as the app itself is built. Start with a basic plan, perhaps write a draft of requirements specifications or user stories, choose your technology (framework, language etc.), then begin developing the core functionality of the app so a "working" version of the app is "deployable", you and your customer should then review what you have and re-evaluate your initial plan. Often even by this point, the customer (or you) will likely discover something missed in the original plan for the design. Continue this process of development and review for the rest of the features of the app.</p>
+                        <p>Below is a flowchart describing the agile process. There are different ways the phases in agile are described, but I think this is the simplest.</p>
+                        <a href="#!"><img class="img-fluid" src="../static/assets/img/agile.jpg" alt="agile development" /></a>
+                        <p>I'll define each phase as well. Note that sometimes iterations of the agile methods are known as "sprints", but I'll just refer to them as "cycles" since it applies better to agile.</p>
+                        <p>Plan: Begin by understanding what the customer/user wants and start constructing an outline of the requirements, both functional and non-functional. Usually this involves writing a "requirements specifications document", "user stories", and a basic plan for the lifecycle and scheduling of production, but in the very first cycle all you need to do is start these. Nothing needs to be concrete at the start, besides a basic understanding of what the customer needs. This beginning phase is revisited at the start of each agile cycle, and over the course of production this time is used to evaluate the requirements for the app as well as the overall plan for development.</p>
+                        <p>Design: In this phase you plan the technical design of the app, what software is needed, and usually involves construction of a "Software Design Document" and UML Diagrams. Although the customer may not understand the technical aspect, it's usually important to review some design decisions with them at this point. Like before, you don't need to have everything mapped out perfectly at the start.</p>
+                        <p>Develop: Take what you thought about before, and spend a chunk of time building the app itself. Simple. Begin with the goal of producing functioning or "working" software with the bare minimum features, and build up from there with each agile cycle.</p>
+                        <p>Test: Before bringing what you completed in the develop phase to the customer for their review, you must test the features yourself. Testing itself is certainly a topic for another day.. But do what you need to ensure the app is bug free and can't be broken/crashed through usage. This may involve unit testing or other testing methods that automate some of it for you. </p>
+                        <p>Deploy: Send what you have to the customer (or potential users) and have them use and review what you have completed. Don't worry if your software is very simple at first deployment, just enjoy having built the features that do currently work.</p>
+                        <p>Review: Think about what you have done throughout the current agile cycle and how what you may have learned throughout the process may influence your plan going forward. Your reviews as the developer, as well as reviews from the customer/potential users from deployment, can then be used to evaluate and continue building your plan and design in the next cycle, and propel you into another development phase, and so on.</p>
+
+                        <p>Launch: The previous phases are cycled until the customer is satisfied with the product and a finalized version can be released. At this point, all requirements specified throughout the agile lifecycle have been completed. You can be sure of this, because the requirements were updated with each cycle all the way to the delivery of the final product. If a compromise had to be made in the design somewhere throughout the process you remove that requirement and forget about it, and move on so Launch can be achieved. Constantly reviewing requirements and design certainly keeps developers honest with themselves. By this point the software is complete and you should be satisfied. </p>
+                        <p>As you can see, agile provides a way to constantly get feedback from users (and yourself) while pumping out functioning software features from the start of production to the end.</p>
+                        <p>
+                            Posted by Peter @ Saturn Science - Aug 21, 2023
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </article>
+
+{% endblock %}
