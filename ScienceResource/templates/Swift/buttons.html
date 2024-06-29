@@ -1,0 +1,53 @@
+{% extends "layout.html" %}
+{% block content %}
+<!-- Page Header-->
+        <!-- Page Header-->
+        <header class="masthead" style="background-image: url('../static/assets/img/buttons.jpg')">
+
+            <div class="container position-relative px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-md-10 col-lg-8 col-xl-7">
+                        <div class="post-heading">
+                            <h1>Buttons in Swift</h1>
+                            <h2 class="subheading">How to build buttons that produce your app quickly and easily!</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- Post Content-->
+        <article class="mb-4">
+            <div class="container px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-md-10 col-lg-8 col-xl-7">
+
+                        <p>Let's figure out how buttons work in Swift. Learning Swift, you'll find there's many different ways to do the same thing, and
+                             this is absolutely the case with buttons, which can get confusing. I'm going to show you a good standard way to create functional buttons that will work in any application and help you build apps fast.</p>
+                        <p>The following Swift code defines the button functionality (top), and label or front-end representation of the button (bottom).</p>
+                        <a href="#!"><img class="img-fluid" src="../static/assets/img/1but.png" alt="default button code" /></a>
+                        <p>As you can see, this button/label syntax is very readable and easy to use. XCode does not usually autocomplete to this syntax however, so do be aware. The code produces this button on the page:</p>
+                        <a href="#!"><img class="img-fluid" src="../static/assets/img/2but.png" alt="default button" /></a>
+                        <p>Now if we click the button as defined, this output is found in the terminal:</p>
+                        <a href="#!"><img class="img-fluid" src="../static/assets/img/3but.png" alt="output" /></a>
+                        <p>We can also change the label to something else like an image..</p>
+                        <a href="#!"><img class="img-fluid" src="../static/assets/img/b21.png" alt="red button image" /></a>
+                        <p>The image I provided produces this button, and in the same terminal as before, prints this new statement when pressed:</p>
+                        <a href="#!"><img class="img-fluid" src="../static/assets/img/rb.png" alt="red button preview" /></a>
+                        <a href="#!"><img class="img-fluid" src="../static/assets/img/b22.png" alt="red output" /></a>
+                        <p>Perhaps the best use of this syntax is creating a custom button design and using it as the label. Let's
+                        use this purple button I define below</p>
+                        <a href="#!"><img class="img-fluid" src="../static/assets/img/pb1.png" alt="purple button" /></a>
+                        <p>This code produces the following button and the following output:</p>
+                        <a href="#!"><img class="img-fluid" src="../static/assets/img/pb2.png" alt="preview purple button" /></a>
+                        <a href="#!"><img class="img-fluid" src="../static/assets/img/pb3.png" alt="purple output" /></a>
+                        <p>You can use these buttons to perform any function, stylize them however you want, and fit them into any app in any context.</p>
+
+                        <p>
+                            Posted by Peter Menchu @ Saturn Science - Jun 28, 2024
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </article>
+
+{% endblock %}
