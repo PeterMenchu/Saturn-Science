@@ -82,7 +82,7 @@ def swift():  # put application's code here
     return render_template("Swift/index.html")
 
 
-@app.route('/Swift/buttons.html')
+@app.route('/Swift/buttons')
 def buttons():  # put application's code here
     return render_template("Swift/buttons.html")
 
